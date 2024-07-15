@@ -1,0 +1,92 @@
+.heroBackgroundImage,
+.heroChild {
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+}
+.heroBackgroundImage {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-image: url(/public/image-rect@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.heroChild {
+  align-self: stretch;
+  height: 667px;
+  bottom: -50px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.manageYourProperty,
+.welcomeToRealstate {
+  position: relative;
+  line-height: 120%;
+  z-index: 1;
+}
+.manageYourProperty {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.yourWillHave {
+  width: 435px;
+  position: relative;
+  font-size: var(--font-size);
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.hero,
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.heroContent {
+  width: 479px;
+  gap: var(--gap-5xl);
+  font-size: var(--font1-size);
+}
+.hero {
+  align-self: stretch;
+  padding: var(--padding-72xl) var(--padding-27xl) var(--padding-157xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1050px) {
+  .manageYourProperty {
+    font-size: var(--font-size-35xl);
+    line-height: 64px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .hero {
+    padding: var(--padding-40xl) var(--padding-4xl) var(--padding-95xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .manageYourProperty {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}

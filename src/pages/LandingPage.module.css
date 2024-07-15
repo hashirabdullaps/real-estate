@@ -1,0 +1,58 @@
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.projectTitle {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) var(--padding-5xl) var(--padding-17xl);
+  max-width: 100%;
+}
+.brokerageButtons,
+.landingPage,
+.projectTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.brokerageButtons {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 31px 67px;
+  max-width: 100%;
+}
+.landingPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-15xl) 29px 110px 30px;
+  gap: 108px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .brokerageButtons {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .landingPage {
+    gap: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .landingPage {
+    gap: 27px;
+  }
+}

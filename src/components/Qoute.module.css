@@ -1,0 +1,90 @@
+.frameChild {
+  align-self: stretch;
+  width: 438px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.enterYourEmail {
+  border: 0;
+  outline: 0;
+  font-family: var(--font);
+  font-size: var(--font-size);
+  background-color: transparent;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-gray-400);
+  text-align: left;
+  display: inline-block;
+  min-width: 78px;
+  padding: 0;
+  z-index: 1;
+}
+.enterYourEmailWrapper {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 60px;
+  width: 147px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--text-heading-color);
+  display: none;
+}
+.getAQuote {
+  position: relative;
+  font-size: var(--font-size);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.rectangleGroup,
+.rectangleParent {
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  z-index: 1;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-6xl);
+  background-color: var(--text-heading-color);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-dimgray);
+}
+.rectangleParent {
+  width: 438px;
+  background-color: var(--white);
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

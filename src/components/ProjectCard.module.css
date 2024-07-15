@@ -1,0 +1,129 @@
+.frameChild {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--gray-color);
+  box-sizing: border-box;
+}
+.frameChild,
+.imageWrap,
+.projectImageIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 100%;
+  height: 100%;
+}
+.projectImageIcon {
+  object-fit: cover;
+  display: none;
+  z-index: 1;
+}
+.imageWrap {
+  background: linear-gradient(
+    115.89deg,
+    rgba(193, 222, 232, 0.7) 9.15%,
+    rgba(255, 255, 255, 0) 52.17%,
+    rgba(251, 217, 185, 0.7) 98.84%
+  );
+  z-index: 2;
+}
+.projectImageParent {
+  align-self: stretch;
+  height: 263px;
+  border-radius: var(--br-sm);
+  background-image: url(/public/rectangle-21@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.description,
+.projectImageParent,
+.title {
+  position: relative;
+  z-index: 1;
+}
+.title {
+  font-size: var(--font-size-2xl);
+  line-height: 120%;
+  font-weight: 600;
+}
+.description {
+  align-self: stretch;
+  line-height: 24px;
+}
+.starinactivebigIcon,
+.starinactivebigIcon1,
+.starinactivebigIcon2,
+.starinactivebigIcon3,
+.starinactivebigIcon4 {
+  height: 17.3px;
+  width: 16.6px;
+  position: relative;
+  object-fit: contain;
+}
+.stars {
+  height: 17.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-5);
+  z-index: 1;
+}
+.rating {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 33px;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent,
+.starsParent,
+.titleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.starsParent {
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.frameWrapper,
+.rectangleParent,
+.titleParent {
+  max-width: 100%;
+}
+.titleParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.frameWrapper,
+.rectangleParent {
+  box-sizing: border-box;
+}
+.frameWrapper {
+  width: 377px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+}
+.rectangleParent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-6xl);
+  position: relative;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-mid);
+    line-height: 20px;
+  }
+}

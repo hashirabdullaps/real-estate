@@ -1,0 +1,301 @@
+.frameChild {
+  height: 90px;
+  width: 1380px;
+  position: relative;
+  border-radius: var(--br-51xl);
+  background-color: var(--gray-2);
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  position: absolute;
+  top: 11.5px;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-gray-200);
+  width: 16px;
+  height: 16px;
+}
+.frameInner {
+  position: absolute;
+  top: 15.5px;
+  left: 5px;
+  background-color: var(--color-white);
+  width: 6px;
+  height: 9px;
+  z-index: 1;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  width: 16px;
+  height: 11.5px;
+  object-fit: cover;
+}
+.buildIcon,
+.rectangleGroup {
+  height: 27.5px;
+  width: 16px;
+  position: relative;
+}
+.buildIcon {
+  height: 17.1px;
+  width: 67.9px;
+  object-fit: contain;
+}
+.logo,
+.menuItems {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.menuItems {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.rectangleDiv {
+  height: 60px;
+  width: 571px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.aboutUs {
+  text-decoration: none;
+  position: relative;
+  line-height: 120%;
+  color: inherit;
+  display: inline-block;
+  min-width: 71px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.menuList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.projects {
+  text-decoration: none;
+  position: relative;
+  line-height: 120%;
+  color: inherit;
+  display: inline-block;
+  min-width: 64px;
+  z-index: 2;
+}
+.menuList1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.agents {
+  text-decoration: none;
+  position: relative;
+  line-height: 120%;
+  color: inherit;
+  display: inline-block;
+  min-width: 56px;
+  z-index: 2;
+}
+.menuList2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.services {
+  text-decoration: none;
+  position: relative;
+  line-height: 120%;
+  color: inherit;
+  display: inline-block;
+  min-width: 67px;
+  z-index: 2;
+}
+.menuList3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.listings {
+  text-decoration: none;
+  position: relative;
+  line-height: 120%;
+  color: inherit;
+  display: inline-block;
+  min-width: 59px;
+  z-index: 2;
+}
+.menuList4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.vuesaxlinearsearchNormalIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: contain;
+  min-height: 24px;
+  z-index: 2;
+}
+.menuItems1,
+.rectangleContainer {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleContainer {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-lg) var(--padding-14xl) var(--padding-lg)
+    var(--padding-3xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.menuItems1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.otherServices {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size);
+  line-height: 120%;
+  font-family: var(--font);
+  color: var(--text-heading-color);
+  text-align: left;
+  display: inline-block;
+  min-width: 114px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.vuesaxlineararrowRightIcon {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.vuesaxlineararrowRightWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.menuItems2,
+.otherServicesParent,
+.vuesaxlineararrowRightWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.otherServicesParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.menuItems2 {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lgi);
+}
+.contactUs {
+  position: relative;
+  font-size: var(--font-size);
+  line-height: 120%;
+  font-family: var(--font);
+  color: var(--text-heading-color);
+  text-align: left;
+  display: inline-block;
+  min-width: 88px;
+}
+.contactUsWrapper,
+.menuItemsParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.contactUsWrapper {
+  cursor: pointer;
+  border: 1px solid var(--gray-color);
+  padding: var(--padding-lgi) var(--padding-15xl);
+  background-color: var(--white);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  align-items: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contactUsWrapper:hover {
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.menuItemsParent,
+.rectangleParent {
+  align-items: flex-end;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.rectangleParent {
+  border-radius: var(--br-51xl);
+  background-color: var(--gray-2);
+  align-items: flex-start;
+  padding: var(--padding-smi) var(--padding-5xl) var(--padding-mini)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size);
+  color: var(--text-heading-color);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleContainer {
+    display: none;
+  }
+  .menuItems1 {
+    width: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-xl);
+  }
+}
